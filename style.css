@@ -1,0 +1,132 @@
+body {
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #060606;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.title {
+  border: 2px solid rgb(7, 7, 7);
+  border-radius: 10px;
+  background-color: rgb(104, 250, 250);
+  padding: 30px;
+  font-size: 2rem;
+  color: #333;
+}
+.buttons{
+  margin-bottom: 20px;
+  
+}
+.buttons button{
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 5px solid rgb(238, 241, 234);
+  border-radius: 4px;
+}
+.buttons button:hover{
+  color: rgb(249, 249, 252);
+  background-color: black;
+}
+
+
+
+.Anime {
+  border: 2px solid black;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+.anime{
+  border: 5px solid white;
+  color: white;
+}
+.anime:hover{
+  color: red;
+
+}
+.Anime img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.Anime img:hover {
+  transform: scale(1.05);
+}
+
+.Car {
+  border: 2px solid black;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.Car img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.Car img:hover {
+  transform: scale(1.05);
+  
+  
+}
+.car {
+  border: 5px solid white;
+  color: whitesmoke;
+  cursor: pointer;
+
+}
+.car :hover{
+  color: red;
+}
+
+.Marvel {
+  border: 2px solid black;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.Marvel img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.Marvel img:hover {
+  transform: scale(1.05);
+}
+.marvels{
+  border: 5px solid white;
+  color: whitesmoke;
+  cursor: pointer;
+
+}
+.marvels:hover {
+  color: red;
+}
